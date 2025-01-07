@@ -1,0 +1,47 @@
+# Directorios y archivos de Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Variables sensibles
+*.auto.tfvars
+*.auto.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Archivos de salida y configuración local
+*.tfplan
+*.log
+
+# Archivos sensibles de AWS
+.aws/
+credentials
+config
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+*~
+
+# IDEs y editores
+.idea/
+.vscode/
+*.iml
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+
+# Claves SSH
+id_rsa
+id_rsa.pub
+
+# Otros archivos que no deberían subirse
+secrets.json
+private.key
+public.key
